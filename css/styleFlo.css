@@ -9,9 +9,6 @@ header {
 
 a {
     text-decoration: none;
-    border: 1px solid black;
-    border-radius: 50%;
-
 }
 
 main {
@@ -20,9 +17,33 @@ main {
     justify-content: center;
     align-items: center;
     color: #125D98;
-    margin-top: 5em;
+    margin-top: 1em;
+}
+span {
+    font-style: oblique;
+    color: #F5A962;
 }
 
 .potato {
     width: 5em;
+    margin: 1.4em 0;
 }
+
+.container {
+    margin-top: 5em;
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
+
+#circle {
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #3C8DAD;
+    box-shadow:0.2282em -0.3206em 5px #F5A962, 0.326em -0.458em 10px  #125D98, 0.4238em -0.5954em 17px rgb(172, 172, 172);
+    ;
+}
+
