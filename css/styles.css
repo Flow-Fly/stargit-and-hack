@@ -1,0 +1,28 @@
+body{
+    max-width: 650px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#headSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#images{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 100px;
+}
