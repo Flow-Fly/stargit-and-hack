@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    background-color: #DDDDDD;
+}
+
+header {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #125D98;
+    margin-top: 5em;
+}
+
+.potato {
+    width: 5em;
+}
