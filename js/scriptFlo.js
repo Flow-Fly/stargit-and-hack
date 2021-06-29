@@ -4,7 +4,7 @@ let center = {
     x: (window.innerWidth / 2).toFixed(2),
     y: (window.innerHeight / 2).toFixed(2)
 }
-let limit = {x: 1, y: 1}
+let limit = {x: 2, y: 2}
 
 window.addEventListener('mousemove', (MouseEvent) => {
 
@@ -23,7 +23,7 @@ window.addEventListener('mousemove', (MouseEvent) => {
     if(Yprojection < (limit.y * -1)) {
         Yprojection = limit.y * -1;
     };
-    let changeBoxShadow = (0.7 * Xprojection).toFixed(2) + "em " + (0.7 * Yprojection).toFixed(2) + "em 5px #F5A962, " + Xprojection.toFixed(2) + "em " + Yprojection.toFixed(2) + "em 10px #125D98, " + (1.3 * Xprojection).toFixed(2) + "em " + (1.3 * Yprojection).toFixed(2) + "em 17px rgb(172, 172, 172);";
+    let changeBoxShadow = (0.4 * Xprojection).toFixed(2) + "em " + (0.4 * Yprojection).toFixed(2) + "em 5px #F5A962, " + Xprojection.toFixed(2) + "em " + Yprojection.toFixed(2) + "em 10px #125D98, " + (1.5 * Xprojection).toFixed(2) + "em " + (1.5 * Yprojection).toFixed(2) + "em 17px rgb(172, 172, 172)";
     //let changeBoxShadow = `${(0.7 * Xprojection).toFixed(2)}px ${(0.7 * Yprojection).toFixed(2)}px 5px #F5A962, ${Xprojection.toFixed(2)}px ${Yprojection.toFixed(2)}px 10px #125D98, ${(1.3 * Xprojection).toFixed(2)}px ${(1.3 * Yprojection).toFixed(2)}px 17px rgb(172, 172, 172);`;
     //console.log(changeBoxShadow)
 

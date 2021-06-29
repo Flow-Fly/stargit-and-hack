@@ -44,5 +44,6 @@ span {
     width: 120px;
     border-radius: 50%;
     background-color: #3C8DAD;
+    border-inline: 2px solid #52abce;
 }
 
